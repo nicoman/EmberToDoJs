@@ -31,7 +31,7 @@
             </header>
             <section id="main">
                 {{outlet}}
-                <input type="checkbox" id="toggle-all">
+                {{input type="checkbox" id="toggle-all" checked=allAreDone}}
             </section>
             <footer id="footer">
                 <span id="todo-count">
@@ -69,5 +69,6 @@
         <script src="js/controllers/todos_controller.js"></script>
         <script src="js/controllers/todo_controller.js"></script>
         <script src="js/views/edit_todo_view.js"></script>
+        <script src="js/libs/localstorage_adapter.js"></script>
     </body>
 </html>
